@@ -1,13 +1,15 @@
 // src/App.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Signup from './Signup';
 import Login from './Login';
 import Dashboard from './Dashboard';
+// import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+    
   return (
     <div>
       <Router>
